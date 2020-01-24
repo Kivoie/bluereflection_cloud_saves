@@ -12,4 +12,8 @@ To automate this as a cron job you will need to do the following (from Vista to 
 5. Select the `Triggers` tab and click `New` on the bottom left. Choose from any of the selections in the dropdown box and customize to your preference. Click `OK` to apply changes.  
 6. Select the `Actions` tab and click `New` on the bottom left. Select `Start a Program` from the dropdown box and enter in/search for the file path for the batch/bash script. Click `OK` to apply changes.  
 7. Your batch/bash script should now be fully automated to suit your preferences.  
-8. (Optional) You may browse through the `Conditions` and `Settings` tabs in your task properties for additional options.
+8. (Optional) You may browse through the `Conditions` and `Settings` tabs in your task properties for additional options.  
+
+### Why use this?
+
+The advantage of this program (repository) is that the user may rollback to previous commits in the case one or more save files become corrupted and unreadable. If the user unintentionally overwrites their save(s) due to muscle memory (human error), which may happen to some like me, rolling back to a previous version of the save file(s) may prove to be convenient and maintain user satisfaction. As far as I know, no video game platform currently has a method for rolling back to previous save file versions with their software services. This will work for almost any video game player save data. A game like Starbound (Chucklefish Games) has a similar method of providing redundant save files in the case of save file corruption (which apparently is not uncommon with that game) by duplicating the save file and keeping a log of the 3 previous saves, deleting the oldest one after each save file is overwritten.
