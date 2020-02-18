@@ -16,7 +16,10 @@ To automate this as a cron job you will need to do the following (for Windows Vi
 
 ### Why use this?
 
-The advantage of this program (repository) is that the user may rollback to previous commits in the case one or more save files become corrupted and unreadable. If the user unintentionally overwrites their save(s) due to muscle memory (human error), which may happen to some like me, rolling back to a previous version of the save file(s) may prove to be convenient and maintain user satisfaction. As far as I know, no video game platform currently has a method for rolling back to previous save file versions with any of their cloud software services. This will work for almost any video game player save data. A game like Starbound (Chucklefish Games) has a similar method of providing redundant save files in the case of save file corruption (which apparently is not uncommon with that game) by duplicating the save file and keeping a log of the 3 previous saves, deleting the oldest one after each save file is overwritten.
+The advantage of this program (repository) is that the user may rollback to previous commits in the case one or more save files become corrupted and unreadable. If the user unintentionally overwrites their save(s) due to muscle memory (human error), which may happen to some like me, rolling back to a previous version of the save file(s) may prove to be convenient and maintain user satisfaction. As far as I know, no video game platform currently has a method for rolling back to previous save file versions with any of their cloud software services. This will work for almost any video game player save data. A game like Starbound (Chucklefish Games) has a similar method of providing redundant save files in the case of save file corruption (which apparently is not uncommon with that game) by duplicating the save file and keeping a log of the previous 3 saves, deleting the oldest entry after each save file is overwritten.
 
 ### Optional
 You may wish to disable native cloud save for your chosen game(s) (Steam, Origin, Epic) and fork this repository as an alternative to cloud saves.
+
+### Copyright Notice
+Copyright (C) 2020 Danny Vuong. All rights reserved. No part of this repository may be altered and redistributed, in any form or by any other means, without permission in writing from Danny Vuong.
