@@ -23,4 +23,17 @@ tasklist | find /I /N "blue_reflection" > nul && goto FIGHTER
 REM Wait 10 seconds. Start the shell script to upload files to the remote repository.
 ECHO initiating remote repository sync in 10 seconds...
 timeout 10 /NOBREAK > nul
-start "" "C:\Users\Danny\Documents\KoeiTecmo\BLUE REFLECTION\bluereflection.sh"
+
+:UPDATE
+REM Pull and Push to remote repo
+ECHO ===== Synchronizing Cloud =====
+cd "%USERPROFILE%\Documents\KoeiTecmo\BLUE REFLECTION\SAVEDATA"
+ECHO Synchronizing cloud with %cd%
+git pull
+git add *DAT*
+git commit -m "Saves updated"
+git push
+ECHO Cloud save complete!
+ECHO Terminal will close in 5 seconds...
+timeout 5 /NOBREAK > nul
+
