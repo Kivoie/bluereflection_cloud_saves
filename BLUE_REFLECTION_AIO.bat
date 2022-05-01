@@ -36,3 +36,4 @@ ECHO Cloud save complete!
 ECHO.
 ECHO Terminal will close in 5 seconds...
 timeout 5 /NOBREAK > nul
+exit
